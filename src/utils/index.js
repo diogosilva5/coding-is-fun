@@ -1,19 +1,8 @@
-const data = [
-    {
-        id: 1,
-        name: 'Diogo',
-    },
-    {
-        id: 2,
-        name: 'Mauricio',
-    },
-    {
-        id: 3,
-        name: 'Ines',
-    }
-];
+import { Dimensions } from 'react-native';
 
-const bgs = ['red', 'blue', 'yellow'];
+const layout = {
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height,
+};
 
-
-export { data, bgs };
+export { layout };
