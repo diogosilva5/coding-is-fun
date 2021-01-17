@@ -78,4 +78,12 @@ const movies = [
     },
 ];
 
-export { tutorial, categories, movies };
+const dummy = [
+    { id: 1, name: 'diogo' },
+    { id: 2, name: 'diogo' },
+    { id: 3, name: 'diogo' },
+    { id: 4, name: 'diogo' },
+    { id: 5, name: 'diogo' },
+];
+
+export { tutorial, categories, movies, dummy };
