@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import Animated, { useSharedValue, useAnimatedScrollHandler } from 'react-native-reanimated';
 
-import { layout } from '../../utils';
+import { layout } from '~/utils';
 import { movies } from '../../data';
 
 const ITEM_WIDTH = layout.width * 0.72;
@@ -55,7 +55,7 @@ const Slider = () => {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        width: layout.width - 100,
     },
     slider: {
         flex: 1,

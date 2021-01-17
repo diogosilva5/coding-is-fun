@@ -6,6 +6,7 @@ import TutorialScreen from '../screens/tutorial';
 import PanGestureScreen from '../screens/pan-gesture';
 import AccordionScreen from '../screens/accordion';
 import SliderScreen from '../screens/slider';
+import ReduxToolkitScreen from '../screens/redux-toolkit';
 
 const Stack = createStackNavigator();
 
@@ -21,6 +22,7 @@ const StackNavigation = () => {
             />
             <Stack.Screen name="Slider" component={SliderScreen} />
             <Stack.Screen name="Accordion" component={AccordionScreen} />
+            <Stack.Screen name="ReduxToolkit" component={ReduxToolkitScreen} />
         </Stack.Navigator>
     );
 };

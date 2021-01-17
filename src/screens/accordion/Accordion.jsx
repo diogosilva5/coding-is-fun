@@ -35,7 +35,7 @@ const Accordion = () => {
 
                     <Animated.View style={[styles.boxt, animatedStyle]}>
                         {categories.map(category => (
-                            <View style={styles.item}>
+                            <View key={category.id} style={styles.item}>
                                 <Text>{category.item}</Text>
                             </View>
                         ))}

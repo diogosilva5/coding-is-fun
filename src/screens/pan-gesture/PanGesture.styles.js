@@ -7,9 +7,9 @@ export const Background = styled.View`
 
 export const ContainerHandler = styled.View`
     position: absolute;
-    bottom: 8;
+    bottom: 8px;
     left: 150px;
-    right: 0;
+    right: 0px;
     width: 100px;
     height: 4px;
     background-color: grey;
