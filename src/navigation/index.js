@@ -10,6 +10,7 @@ import ReduxToolkitScreen from '~/screens/redux-toolkit';
 import SectionListScreen from '~/screens/section-list';
 import FormScreen from '~/screens/form';
 import CarouselScreen from '~/screens/carousel';
+import SyncFlatListScreen from '~/screens/sync-flatlist';
 
 const Stack = createStackNavigator();
 
@@ -33,6 +34,7 @@ const StackNavigation = () => {
             <Stack.Screen name="SectionList" component={SectionListScreen} />
             <Stack.Screen name="Form" component={FormScreen} />
             <Stack.Screen name="Carousel" component={CarouselScreen} />
+            <Stack.Screen name="SyncFlatList" component={SyncFlatListScreen} />
         </Stack.Navigator>
     );
 };

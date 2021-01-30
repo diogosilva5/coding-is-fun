@@ -12,6 +12,7 @@ const screens = [
     { id: 6, name: 'SectionList', icon: 'folder-open-outline' },
     { id: 7, name: 'Form', icon: 'folder-open-outline' },
     { id: 8, name: 'Carousel', icon: 'folder-open-outline' },
+    { id: 9, name: 'SyncFlatList', icon: 'folder-open-outline' },
 ];
 
 import {
